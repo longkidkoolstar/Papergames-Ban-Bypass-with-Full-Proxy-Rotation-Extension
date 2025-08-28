@@ -3,7 +3,7 @@
     "name": "Papergames Ban Bypass",
     "version": "3.0",
     "description": "Simple extension to clear local storage, session storage, and cookies for unban purposes.",
-    "permissions": ["cookies", "storage", "scripting"],
+    "permissions": ["cookies", "storage", "scripting", "browsingData"],
     "background": {
         "service_worker": "background.js"
     },
